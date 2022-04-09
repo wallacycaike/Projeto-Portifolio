@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1598948208894-ca6c00e2f01b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo-principal {
+    margin: 20px;
+    width: 80vw;
+    height: auto;
+    background-color: rgba(0%, 0%, 0%, 0.7);
+    border-radius: 15px;
+    color: white;
+    border: 3px solid rgba(66, 7, 100, 0.774);
+}
+
+.nome {
+    color: white;
+    text-align: center;
+    margin: 40px 50px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.425);
+}
+
+.dev {
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.425);
+}
+
+.conteudo {
+    display: block;
+    margin: 15px;
+}
+
+.conteudo p {
+    text-align: justify;
+    text-indent: 25px;
+}
+
+.conteudo .trabalhos{
+    list-style: square;
+    margin: 5px 0px 7px 35px;
+}
+
+.sobre-mim {
+    margin-top: 15px;
+}
+
+.contato {
+    margin: 0px 30px 30px 30px;
+}
+
+.h3-sociais {
+    margin-bottom: 15px;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(54, 3, 102, 0.425);
+}
+
+em {
+    background-color: rgba(66, 7, 100, 0.5);
+}
+
+.contato ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: purple;
+    font-weight: bold;
+
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.wallacy-foto {
+    width: 150px;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    border: 3px solid rgba(66, 7, 100, 0.774);
+}

@@ -13,11 +13,35 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-attachment: fixed;
+}
+
+.nome {
+    color: white;
+    text-align: center;
+    margin: 30px 50px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.425);
+}
+
+.wallacy-foto {
+    width: 180px;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    border: 3px solid rgba(66, 7, 100, 0.774);
+}
+
+.dev {
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.425);
+}
+
+.sobre-mim {
+    margin-top: 15px;
 }
 
 .conteudo-principal {
     margin: 15px;
-    width: 90vw;
+    max-width: 800px;
     height: auto;
     background-color: rgba(0%, 0%, 0%, 0.7);
     border-radius: 15px;
@@ -25,38 +49,26 @@ body {
     border: 3px solid rgba(66, 7, 100, 0.774);
 }
 
-.nome {
-    color: white;
-    text-align: center;
-    margin: 40px 50px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.425);
-}
-
-.dev {
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.425);
-}
-
 .conteudo {
     display: block;
-    margin: 15px;
+    margin: 30px;
 }
 
 .conteudo p {
     text-align: justify;
     text-indent: 25px;
+    font-size: 1.1em;
+    line-height: 2em;
 }
 
 .conteudo .trabalhos{
     list-style: square;
-    margin: 5px 0px 7px 35px;
+    list-style-position: inside;
+    padding: 20px 10px;
 }
 
-.sobre-mim {
-    margin-top: 15px;
-}
-
-.contato {
-    margin: 0px 30px 30px 30px;
+em {
+    background-color: rgba(66, 7, 100, 0.5);
 }
 
 .h3-sociais {
@@ -65,13 +77,13 @@ body {
     text-shadow: 2px 2px 0px rgba(54, 3, 102, 0.425);
 }
 
-em {
-    background-color: rgba(66, 7, 100, 0.5);
+.contato {
+    margin: 0px 30px 30px 30px;
 }
 
 .contato ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     list-style: none;
     align-items: center;
 }
@@ -86,12 +98,4 @@ a {
 a:hover {
     color: white;
     text-decoration: underline;
-}
-
-.wallacy-foto {
-    width: 150px;
-    margin: auto;
-    display: block;
-    border-radius: 50%;
-    border: 3px solid rgba(66, 7, 100, 0.774);
 }

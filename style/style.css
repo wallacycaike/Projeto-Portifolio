@@ -8,12 +8,11 @@
 }
 
 body {
-    background-image: url("https://images.unsplash.com/photo-1598948208894-ca6c00e2f01b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    background: url("https://images.unsplash.com/photo-1598948208894-ca6c00e2f01b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80") no-repeat fixed center;
     background-size: cover;
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-attachment: fixed;
+    justify-content: center; 
 }
 
 .nome {
@@ -42,7 +41,6 @@ body {
 .conteudo-principal {
     margin: 15px;
     max-width: 800px;
-    height: auto;
     background-color: rgba(0%, 0%, 0%, 0.7);
     border-radius: 15px;
     color: white;
@@ -92,7 +90,7 @@ a {
     text-decoration: none;
     color: purple;
     font-weight: bold;
-
+    line-height: 2em;
 }
 
 a:hover {
